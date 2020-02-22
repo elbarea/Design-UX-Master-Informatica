@@ -1,0 +1,251 @@
+
+* {
+	PADDING-BOTTOM: 0pt; MARGIN: 0pt; PADDING-LEFT: 0pt; PADDING-RIGHT: 0pt; PADDING-TOP: 0pt; 
+}
+#ARQcab {
+	FONT-SIZE: 0.85em; TOP: 3px; RIGHT: 0px; LEFT: 0px
+}
+#ARQlogotipo {
+	BORDER-RIGHT-WIDTH: 3px; WIDTH: 87px; FLOAT: left
+}
+.ARQimgCab {
+	DISPLAY: none
+}
+.ARQsubCab1 div{
+	clear: both;
+}
+IMG#ParqImgRatio {
+	DISPLAY: none
+}
+IMG#ParqImgXML {
+	DISPLAY: none
+}
+IMG#ParqImgHTML {
+	DISPLAY: none
+}
+IMG#ParqImgTask {
+	DISPLAY: none
+}
+IMG#ParqImgGlobal {
+	DISPLAY: none
+}
+.ARQimgCabJv A {
+	DISPLAY: none
+}
+.ARQimgCabJv A#ayuda {
+	DISPLAY: none
+}
+.ARQimgCabJv A#ayudaContext {
+	DISPLAY: none
+}
+.ARQimgCabJv A#salir {
+	DISPLAY: none
+}
+.ARQModal{
+	display: none; 
+}
+INPUT.BotBoton {
+	DISPLAY: none
+}
+LABEL.oculto {
+	DISPLAY: none
+}
+LABEL {
+	DISPLAY: inline-block; WHITE-SPACE: nowrap; MARGIN-RIGHT: 5pt
+}
+INPUT {
+	PADDING-LEFT: 2pt
+}
+#ARQpie {
+	DISPLAY: none
+}
+TABLE {
+	WIDTH: 100%
+}
+TH {
+	PADDING-BOTTOM: 2px; MARGIN: 0px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px
+}
+TD {
+	BORDER-BOTTOM: #000000 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px
+}
+TD A {
+	DISPLAY: block
+}
+#ARQcapaPrincipal {
+	WIDTH: 100% !important; HEIGHT: 80% !important
+}
+#ARQcapaPrincipalMensaje {
+	WIDTH: 95% !important; HEIGHT: 80% !important
+}
+#ARQcapaPrincipalPest {
+	WIDTH: 100% !important; HEIGHT: 80% !important
+}
+#ARQcapaPrincipalPestMensaje {
+	WIDTH: 100% !important; HEIGHT: 80% !important
+}
+#ARQpest {
+	MARGIN-TOP: 20px; WIDTH: 100%; HEIGHT: 30px
+}
+#ARQpest UL {
+	LIST-STYLE-TYPE: none
+}
+#ARQpest LI {
+	BACKGROUND-IMAGE: none; FLOAT: left; MARGIN-RIGHT: 2px
+}
+#ARQpest INPUT {
+	VISIBILITY: hidden
+}
+#ARQpest #seleccionado INPUT {
+	VISIBILITY: visible
+}
+#ARQpest INPUT {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 1em; BORDER-LEFT-STYLE: none; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+FIELDSET {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; PADDING-TOP: 5px
+}
+LEGEND {
+	COLOR: #000000; FONT-WEIGHT: bold
+}
+.agrupar {
+	WHITE-SPACE: nowrap; CLEAR: both
+}
+#ARQsubCab {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid; PADDING-BOTTOM: 20px; CLEAR: both; BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid
+}
+.ARQsubCab1 {
+	BORDER-TOP: 1px solid
+}
+#ARQsubCab H3 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; WIDTH: auto; PADDING-RIGHT: 5px; FLOAT: left; PADDING-TOP: 0px
+}
+#ARQsubCab P {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FLOAT: left; BORDER-RIGHT: 1px solid; PADDING-TOP: 0px
+}
+#ARQsubCab .pVacio {
+	BORDER-RIGHT: 0px solid
+}
+#ARQsubCab .PSinBorde {
+	BORDER-RIGHT: 0px solid
+}
+#ARQPreMensajeError {
+	DISPLAY: none
+}
+#ARQFondoMensajeErrorPest {
+	DISPLAY: none
+}
+#ARQRellenoMensaje {
+	DISPLAY: none
+}
+TEXTAREA {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#listas UL {
+	PADDING-BOTTOM: 1em; MARGIN: 0em 0.5em 0.5em; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; PADDING-TOP: 1em
+}
+#listas UL LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0.3em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 1em; PADDING-TOP: 0px
+}
+#listas UL LI LI {
+	MARGIN-TOP: 0em
+}
+#listas UL UL {
+	MARGIN-TOP: 0em; PADDING-LEFT: 2.4em
+}
+.cajaScroll {
+	WIDTH: 100%; FONT-SIZE: 0.4375em; OVERFLOW: hidden
+}
+.camposSalida {
+	MARGIN: 0px 30px 0px 0px; WHITE-SPACE: nowrap; FLOAT: left
+}
+.agrupar {
+	WHITE-SPACE: nowrap; CLEAR: both
+}
+.col5 {
+	POSITION: relative; WIDTH: 5%; FLOAT: left
+}
+.col9 {
+	POSITION: relative; WIDTH: 7%; PADDING-RIGHT: 1%; FLOAT: left
+}
+.col10 {
+	POSITION: relative; WIDTH: 9%; PADDING-RIGHT: 1%; FLOAT: left
+}
+.col15 {
+	POSITION: relative; WIDTH: 14%; PADDING-RIGHT: 1%; FLOAT: left
+}
+.col20 {
+	POSITION: relative; WIDTH: 19%; PADDING-RIGHT: 1%; FLOAT: left
+}
+.col25 {
+	POSITION: relative; WIDTH: 24%; PADDING-RIGHT: 1%; FLOAT: left
+}
+.col30 {
+	POSITION: relative; WIDTH: 29%; PADDING-RIGHT: 1%; FLOAT: left
+}
+.col33 {
+	POSITION: relative; WIDTH: 32%; PADDING-RIGHT: 1%; FLOAT: left
+}
+.col40 {
+	POSITION: relative; WIDTH: 39%; PADDING-RIGHT: 1%; FLOAT: left
+}
+.col50 {
+	POSITION: relative; WIDTH: 49%; PADDING-RIGHT: 1%; FLOAT: left
+}
+.col60 {
+	POSITION: relative; WIDTH: 59%; PADDING-RIGHT: 1%; FLOAT: left
+}
+.col66 {
+	POSITION: relative; WIDTH: 65%; PADDING-RIGHT: 1%; FLOAT: left
+}
+.col70 {
+	POSITION: relative; WIDTH: 69%; PADDING-RIGHT: 1%; FLOAT: left
+}
+.col75 {
+	POSITION: relative; WIDTH: 74%; PADDING-RIGHT: 1%; FLOAT: left
+}
+.col80 {
+	POSITION: relative; WIDTH: 79%; PADDING-RIGHT: 1%; FLOAT: left
+}
+A {
+	DISPLAY: inline; text-decoration:none; color:#000; padding-left:0; font-size:100%;
+}
+A.externo {
+	DISPLAY: block
+}
+FIELDSET P {
+	CLEAR: both
+}
+#barraPaginacion {
+	BORDER-BOTTOM: 1px dashed; POSITION: relative; PADDING-BOTTOM: 0.5em; MARGIN: 0em 0em 0.25em; PADDING-LEFT: 0.5em; WIDTH: 99%; PADDING-RIGHT: 0.5em; DISPLAY: inline-block; BORDER-TOP: 1px dashed; PADDING-TOP: 0.5em
+}
+#barraPaginacion .totalPaginas {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+#barraPaginacion .totalPaginas DT {
+	DISPLAY: inline
+}
+#barraPaginacion .totalPaginas DD {
+	DISPLAY: inline
+}
+#barraPaginacion .enlacesPaginas {
+	FLOAT: right
+}
+#barraPaginacion .enlacesPaginas OL {
+	DISPLAY: inline
+}
+#barraPaginacion .enlacesPaginas LI {
+	DISPLAY: inline
+}
+#barraPaginacion .literaloc {
+	POSITION: absolute; WIDTH: 0px; DISPLAY: block; HEIGHT: 0px; OVERFLOW: hidden
+}
+INPUT.decreciente {
+	DISPLAY: none
+}
+INPUT.creciente {
+	DISPLAY: none
+}
+
+	
+
+#NMP , #NMP dt.margenInf6 , #NMP dt.margenInf6 a {display: block !important;}

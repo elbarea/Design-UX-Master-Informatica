@@ -1,0 +1,383 @@
+
+#contenMensajeCPMSTam1 {
+  width: 945px;
+  height: 90px;
+  position: relative;
+  overflow: auto;
+  overflow-x: hidden;
+  top: -95px;
+  left: -27px;
+  right: 0px;
+  z-index: 2;
+  padding:15px 0px 0px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -90px;
+}
+#contenMensajeCPMSTam2 {
+  width: 945px;
+  height: 90px;
+  position: relative;
+  overflow: auto;
+  overflow-x: hidden;
+  top: -95px;
+  left: -27px;
+  right: 0px;
+  z-index: 2;
+  padding:15px 0px 0px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -90px;
+}
+#contenMensajeCPMSTam3 {
+ width: 945px;
+ height: 100px;
+ position: relative;
+ overflow: auto;
+ overflow-x: hidden;
+ top: -90px;
+ left: -27px;
+ right: 0px;
+ z-index: 2;
+ padding: 0px 0px 0px 0px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: -90px;
+}
+#contenMensajeCPMSTam4 {
+  width: 945px;
+  height: 120px;
+  position: relative;
+  overflow: auto;
+  overflow-x: hidden;
+  top: -110px;
+  left: -27px;
+  right: 0px;
+  z-index: 2;
+  padding: 0px 0px 0px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -100px;
+}
+
+.pCpms0
+ {
+  color: #000;
+}
+
+#rellenoMensajeCPMSTam1 {
+  border-right-color: #1A5090;
+  border-left-color: #1A5090;
+  border-bottom-color: #1A5090;
+  border-top-color: #1A5090;
+  width: 999px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  height: 80px;
+  margin: auto;
+  border: solid 1px;    
+  background-position: bottom right;
+}
+#rellenoMensajeCPMSTam2 {
+  border-right-color: #1A5090;
+  border-left-color: #1A5090;
+  border-bottom-color: #1A5090;
+  border-top-color: #1A5090;
+  width: 999px;
+  position: relative;
+  top: 10px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  height: 90px;
+  margin: auto;
+  border: solid 1px;    
+  background-position: bottom right;
+}
+#rellenoMensajeCPMSTam3 {
+  border-right-color: #1A5090;
+  border-left-color: #1A5090;
+  border-bottom-color: #1A5090;
+  border-top-color: #1A5090;
+  width: 999px;
+  position: relative;
+  top: 10px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  height: 100px;
+  margin: auto;
+  border: solid 1px;    
+  background-position: bottom right;
+}
+#rellenoMensajeCPMSTam4 {
+  border-right-color: #1A5090;
+  border-left-color: #1A5090;
+  border-bottom-color: #1A5090;
+  border-top-color: #1A5090;
+  width: 999px;
+  position: relative;
+  top: 10px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  height: 120px;
+  margin: auto;
+  border: solid 1px;    
+  background-position: bottom right;
+}
+
+.pCpms0 {
+  font-size: 1em;
+  letter-spacing: 0.12em;
+  font-weight: bold;
+  margin: 3px 10px;
+}
+#mensajeGenericoCPMS span.pCpms0 {
+  text-transform: uppercase;
+  font-size: 0.875em; 
+  color: #fff;
+  width:100%;
+  text-align:center;
+}
+ul.alertCpmsTam1{  
+    background: url(/CPMSCitaPrevia/images/mensajesAlerta/iconmonstr-warning-8-240.png) no-repeat;
+    background-position-x: 1.9%;
+    background-size: 40px;
+    width: 945px;
+    height: 90px;
+    margin-left: auto;
+    background-position-y: 43%;
+}
+ul.alertCpmsTam2{  
+    background: url(/CPMSCitaPrevia/images/mensajesAlerta/iconmonstr-warning-8-240.png) no-repeat;
+    background-position-x: 1.9%;
+    background-size: 40px;
+    width: 945px;
+    height: 90px;
+    margin-left: auto;
+    background-position-y: 43%;
+}
+ul.alertCpmsTam3 {
+    background: url(/CPMSCitaPrevia/images/mensajesAlerta/iconmonstr-warning-8-240.png) no-repeat;
+    background-position-x: 1.9%;
+    background-size: 40px;
+    width: 945px;
+    height: 100px;
+    margin-left: auto;
+    background-position-y: 43%;
+}
+ul.alertCpmsTam4{
+    background: url(/CPMSCitaPrevia/images/mensajesAlerta/iconmonstr-warning-8-240.png) no-repeat;
+    background-position-x: 1.9%;
+    background-size: 40px;
+    width: 945px;
+    height: 120px;
+    margin-left: auto;
+    background-position-y: 43%;
+}
+
+li.mensajeCpmsTam1 {
+ width: 868px;
+ height: 70px;
+ line-height: 55px;
+ padding-bottom: 0px;
+ padding-left: 72px;
+ font-size: 1.25em;
+ color: #FF0000;
+ font-weight: bold;
+ text-align: left;
+ font-family: "Roboto-Light", Arial, sans-serif;
+ padding-top: 15px;
+}
+li.mensajeCpmsTam2 {
+ width: 868px;
+ height: 70px;
+ line-height: 25px;
+ padding-bottom: 0px;
+ padding-left: 72px;
+ font-size: 1.25em;
+ color: #FF0000;
+ font-weight: bold;
+ text-align: left;
+ font-family: "Roboto-Light", Arial, sans-serif;
+ padding-top: 15px;
+}
+li.mensajeCpmsTam3 {
+ width: 868px;
+ height: 80px;
+ line-height: 25px;
+ padding-bottom: 0px;
+ padding-left: 72px;
+ font-size: 1.25em;
+ color: #FF0000;
+ font-weight: bold;
+ text-align: left;
+ font-family: "Roboto-Light", Arial, sans-serif;
+ padding-top: 10px;
+}
+li.mensajeCpmsTam4 {
+ width: 868px;
+ height: 100px;
+ line-height: 25px;
+ padding-bottom: 0px;
+ padding-left: 72px;
+ font-size: 1.25em;
+ color: #FF0000;
+ font-weight: bold;
+ text-align: left;
+ font-family: "Roboto-Light", Arial, sans-serif;
+ padding-top: 10px;
+}
+/*
+Propiedades ANCHO:
+	- CABECERA: MensajeGenericoCPMS : width: 986px;
+	- CONTENIDO(imagen exclamacion y texto):li.mensajeCpms: width: 900px;
+	- LÍNEAS RECUADRO: RellenoMensajeCPMS: width: 986px;
+Propiedades ALTO:
+	- CABECERA: MensajeGenericoCPMS : width: 986px;
+	- CONTENIDO(imagen exclamacion y texto):li.mensajeCpms: height: 75px
+	- LÍNEAS RECUADRO: RellenoMensajeCPMS: height: 7.5em;
+*/
+#fondoMensajeDrchaCPMSTam1 {
+  position: relative;
+  top: 26px;
+  left: 1134px;
+  right:0px;
+  width: 56px;
+  height: 55px;
+  background: url(/CPMSCitaPrevia/images/mensajesAlerta/ParqMensajeErrorFondo.png) no-repeat 0 0; 
+  z-index: 0;
+  float: left;
+  margin: auto;
+}
+#fondoMensajeDrchaCPMSTam2 {
+  position: relative;
+  top: 46px;
+  left: 1134px;
+  right:0px;
+  width: 56px;
+  height: 55px;
+  background: url(/CPMSCitaPrevia/images/mensajesAlerta/ParqMensajeErrorFondo.png) no-repeat 0 0; 
+  z-index: 0;
+  float: left;
+  margin: auto;
+}
+#fondoMensajeDrchaCPMSTam3 {
+  position: relative;
+  top: 57px;
+  left: 1134px;
+  right:0px;
+  width: 56px;
+  height: 55px;
+  background: url(/CPMSCitaPrevia/images/mensajesAlerta/ParqMensajeErrorFondo.png) no-repeat 0 0; 
+  z-index: 0;
+  float: left;
+  margin: auto;
+}
+#fondoMensajeDrchaCPMSTam4 {
+  position: relative;
+  top: 77px;
+  left: 1134px;
+  right:0px;
+  width: 56px;
+  height: 55px;
+  background: url(/CPMSCitaPrevia/images/mensajesAlerta/ParqMensajeErrorFondo.png) no-repeat 0 0; 
+  z-index: 0;
+  float: left;
+  margin: auto;
+}
+#fondoMensajeIzqCPMS {
+  position: relative;
+  top: 56px;
+  left: 134px;
+  right:0px;
+  width: 153px;
+  height: 155px;
+  background: url(/CPMSCitaPrevia/images/mensajesAlerta/ParqMensajeAviso.png) no-repeat 0 0; 
+  z-index: 0;
+  float: left;
+  margin: auto;
+}
+#mensajeGenerico span.pCpms0{
+  text-transform: uppercase;
+  font-size: 0.875em;
+  color: #fff;
+}
+#mensajeGenericoPest span.pCpms0{
+  color: #fff;
+}
+#rellenoMensajePestCPMS {
+  border-right-color: #1A5090;
+  border-left-color: #1A5090;
+  border-bottom-color: #1A5090;
+  border-top-color: #1A5090;
+  width: 999px;
+  position: relative;
+  top: 160px;
+  left: 0px;
+  right:0px;
+  z-index: 4;
+  border-right: 1px solid;
+  border-left: 1px solid;
+  height: 5.7em;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  background-position:bottom right;
+  margin: auto;
+}
+#mensajeGenericoCPMS {
+  width: 986px;
+  left: 0;
+  padding: 5px 5px 5px 10px;
+  position: relative;
+  right: 0;
+  top: 11px;
+  z-index: 3;
+  margin: auto;
+  background-color: #1A5090 !important;
+}
+#mensajeGenericoPestCPMS {
+  width: 986px;
+  position: relative;
+  padding: 5px 5px 5px 10px;
+  top: 160px;
+  left: 0px;
+  right:0px;
+  z-index:5;
+  margin: auto;
+  background-color: #1A5090 !important;
+}
+#mensajeGenericoCPMS ul,
+#mensajeGenericoPestCPMS ul {
+  width: 95%;
+  list-style-type: none;
+  font-size: 0.75em;
+  font-weight: normal;
+  text-align: justify;
+}
+
+
+table.tablaLopd {
+	inline-size: 100%;
+	max-inline-size: 100%; 
+	width:100%; 
+	max-width:100%;
+}
+td.td1tablaLopd {
+	background-color: #C2D69A; 
+	width:15%;
+}
+td.td2tablaLopd {
+	background-color: #EBF2DD;
+	width:30%;
+}
+
+span.titTablaLops{
+	white-space:normal;
+	color:#1a5090;
+	font-weight: bold;
+}

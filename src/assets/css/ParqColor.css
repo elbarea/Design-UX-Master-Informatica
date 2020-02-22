@@ -1,0 +1,405 @@
+/* CSS Document */
+/* CABECERA */
+#ARQcab {
+  background-color: #3E74B4;
+}
+#ARQcab a {
+  margin-right: 10px;
+}
+#ARQlogotipo {
+  border: none;
+  background-image: none;
+  left: 20px;
+}
+/* ESTRUCTURA */
+#ARQcapaPrincipal {
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+#ARQcapaPrincipalPest,
+#ARQcapaPrincipalMensaje,
+#ARQcapaPrincipalPestMensaje,
+#ARQPrePestMensajeError {
+  border-right-color: #57A447;
+  border-left-color: #57A447;
+}
+/* FORMULARIOS */
+.inputAyuda,
+.datosSalida dd,
+.datosSalidaInline dd,
+/*GEDEON 681883*/ .datosSalidaInlineFlex dd {
+  color: #3E74B4;
+}
+input,
+label,
+select,
+textarea,
+.datosSalidaInline dt,
+/*GEDEON 681883*/ .datosSalidaInlineFlex dt,
+.datosSalida dt {
+  color: #000;
+}
+select,
+textarea {
+  background-color: #EEFBEF;
+}
+input.BotBoton {
+  background-color: #EDEDED;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 5px 20px;
+  cursor: pointer;
+  transition: .3s;
+}
+input.BotBoton:hover {
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  transition: .3s;
+}
+input.BotBoton[value="Eliminar"] {
+  background-color: #f6a3a9;
+  color: #000;
+  border-color: #942a2a;
+}
+input.BotBoton[value="Modificar"] {
+  background-color: #f7f6a6;
+  color: #000;
+  border-color: #aa9c05;
+}
+input.BotBoton[value="Añadir"] {
+  background-color: #c6f5a5;
+  color: #000;
+  border-color: #9a9ca1;
+}
+input.BotBoton[value="Consultar"] {
+  background-color: #f2f4f8;
+  color: #000;
+  border-color: #9a9ca1;
+}
+input.BotBoton[value="Examinar"] {
+  background-color: #f2f4f8;
+  color: #000;
+  border-color: #9a9ca1;
+}
+input,
+textarea,
+select {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 8px 5px;
+  background-color: white;
+}
+.paginacion input.BotBoton {
+  background: #c8e2fb;
+  color: #000;
+  border-color: #3E74B4;
+}
+input.preguntas {
+  border-color: #000;
+}
+/* GENERAL */
+.p0,
+.p1,
+.p2,
+h3,
+h4,
+h5,
+h6,
+.agrupaciones,
+.anotaciones {
+  color: #000;
+}
+legend, a {
+	color: #3E74B4;
+}
+p.contenidos {
+  color: #000;
+}
+.p6 {
+  border: #000;
+  background-color: #EEFBEF;
+}
+.lista0 li {
+
+}
+a {
+
+}
+/* MENSAJES */
+/*#ARQPrePestMensajeError, #ARQPrePestMensajeInfo, #ARQPrePestMensajeAviso {border:#982915;}*/
+#ARQRellenoMensaje,
+#ARQRellenoMensajePest {
+  border-right-color: #3E74B4;
+  border-left-color: #3E74B4;
+  border-bottom-color: #3E74B4;
+  border-top-color: #3E74B4;
+}
+#ARQPreMensajeError {
+  border-color: #982915;
+}
+#ARQPrePestMensajeInfo,
+#ARQPreMensajeInfo {
+  border-color: #3E74B4 !important;
+}
+#ARQMensajeGenerico,#ARQMensajeGenericoPest {
+  background-color: #3E74B4 !important;
+}
+#ARQMensajeGenerico span.p0,#ARQMensajeGenericoPest span.p0,
+#ARQMensajeGenerico span.p1,#ARQMensajeGenericoPest span.p1 {
+  color: #fff;
+}
+/* PESTAÑAS */
+#ARQpest {
+  background: #FFF ;
+  color: #76a5db;
+  background: none;
+  background-image: none;
+  border-bottom: solid 1px #999 ;
+}
+#ARQpest #seleccionado {
+  border-top: 1px solid #999;
+  border-right: 1px solid #999;
+  border-left: 1px solid #999;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  color: #333;
+}
+/*#ARQpest #seleccionado INPUT {background-image:url(../../../img3_1/servicios/ParqDirPestRightON.gif); color:#3E74B4;}*/
+/* PIE */
+#ARQpie {
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: #ccc;
+}
+/* PREVISUALIZACION */
+#Previsualizacion h3 {
+  background-color: #D3F3D5;
+}
+#Previsualizacion .area_doc {
+  background-color: #EEFBEF;
+  border-bottom-color: #D3F3D5;
+}
+/* SUBCABECERA */
+#ARQsubCab H3,
+#ARQsubCab P,
+#ARQsubCab .PSinBorde {
+  color: #000;
+}
+.ARQsubCab1 {
+  background-color: #fff;
+  border-bottom: 1px solid #f2f4f8;
+  overflow: hidden;
+}
+/* TABLAS */
+table {
+  border-collapse: collapse; 
+  border-spacing: 0;
+}
+caption,
+TR.subCabecera,
+TD.cabecera,
+TD,
+.celda {
+  color: #000;
+  border: 1px solid #e5e8e9;
+  padding: 4px 8px;
+}
+th {
+	background-color: #3E74B4 !important;
+	color: #fff;
+	border-right: 1px solid #fff;
+	border-top: 1px solid #fff;
+	padding: 4px 8px;
+}
+tr {
+  font-size: 1em;
+}
+tr.filaON {
+  background-color: #fafafa ;
+}
+TR.cabecera,
+.celdaCab,
+#celdaCab,
+.cabSimulada {
+  background-color: #3E74B4;
+}
+TR.subCabecera,
+TD.cabecera {
+  background-color: #ededed;
+  color: #333;
+  padding: 8px 0;
+}
+td {
+  border-color: #ccc;
+}
+/* Eliminar cuando se haya migrado a la nueva página de navegación. 99gu3309 - 04 oct 2010 */
+#posicionar {
+  color: #000;
+/*   background-color: #D3F3D5; */
+/*   border-bottom-color: #346B28; */
+/*   border-top-color: #346B28; */
+}
+.celdaPar {
+  border-bottom-color: #DBEBD7;
+  background-color: #F7F7F7;
+}
+/* 99gu3309 - 04 oct 2010 */
+#barraPaginacion {
+  color: #000;
+  background-color: #fff;
+  border-bottom-color: transparent;
+  border-top-color: transparent;
+}
+#barraPaginacion input.BotBoton2 {
+  background: #D3F3D5;
+  border-right: 1px Solid #346b28;
+}
+#barraPaginacion input.ultimo {
+  background: #D3F3D5;
+  border-right: 0px Solid;
+}
+#barraPaginacion dl.actual {
+  background-color: #f2f4f8;
+}
+/*#barraPaginacion .enlacesPaginas .globalesIzq li, #barraPaginacion .enlacesPaginas .saltosIzq li {border-right:1px Solid #346b28;}
+#barraPaginacion .enlacesPaginas .globalesDch li, #barraPaginacion .enlacesPaginas .saltosDch li {border-left:1px Solid #346b28;}
+*/
+/* */
+/* CABECERA */
+#ARQlogotipo {
+  background: none;
+  border: none;
+}
+#ARQtitulos {
+  left: 20px !important;
+}
+/*colores*/
+/* Colores de Fondo */
+.fondoOscuro {
+  background-color: #EAF2EA;
+  border-color: #DAE2DA !important;
+}
+.fondoMedio {
+  background-color: #F3FCF3;
+  border-color: #E3ECE3 !important;
+}
+.fondoClaro {
+  background-color: #FAFFFA;
+  border-color: #EAEFEA !important;
+}
+/* Colores de Texto */
+.textoOscuro {
+  color: #337333 !important;
+}
+.textoMedio {
+  color: #377737 !important;
+}
+.textoClaro {
+  color: #3A7A3A !important;
+}
+/* Colores de borde */
+.bordeOscuro {
+  border-color: #DAE2DA !important;
+}
+.bordeMedio {
+  border-color: #E2EAE2 !important;
+}
+.bordeClaro {
+  border-color: #E7EFE7 !important;
+}
+/* Carga */
+.logoCarga {
+  position: relative;
+
+  top: 10em;
+  z-index: 102;
+  width: 18em;
+  height: 13em;
+  padding-top: 120px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+/* --------------------------------------------- */
+/* agosto 2015*/
+.globalesDch li a {
+
+  background-repeat: no-repeat !important;
+  background-position: left!important;
+  /*font-size: 0.01em !important;*/
+  /*width: 20px !important;
+  padding-top: 13px;*/
+  padding-right: 10px !important;
+  color: transparent;
+  padding-bottom: 2px;
+}
+.globalesDch li a span{
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px); 
+}
+.globalesDch li:first-child a {
+
+  background-repeat: no-repeat !important;
+  background-position: left!important;
+  /*font-size: 0.01em !important;*/
+  /*width: 20px !important;
+  padding-top: 13px;*/
+  padding-right: 10px !important;
+  color: transparent;
+  padding-bottom: 2px;
+}
+.globalesIzq li a {
+
+  background-repeat: no-repeat !important;
+  background-position: right!important;
+  /*font-size: 0.01em !important;*/
+  color: transparent;
+  /*width: 20px !important;
+  padding-top: 13px;*/
+  padding-left: 10px !important;
+  padding-bottom: 2px;
+}
+.globalesIzq li a span{
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px); 
+}
+.globalesIzq li:first-child a {
+
+  background-repeat: no-repeat !important;
+  background-position: right!important;
+  /*font-size: 0.01em !important;*/
+  /*width: 20px !important;
+  padding-top: 13px;*/
+  padding-left: 10px !important;
+  color: transparent;
+  padding-bottom: 2px;
+}
+.ui-dialog-titlebar{
+  background-color:#3E74B4;
+}
+/* Desplegable */
+.desplegable{
+	background-color:#3E74B4; 
+	border-color:#3E74B4!important;
+	padding-top: 5px;
+}
+
+.botonDesplegable{
+	background:none!important;
+	color:#fff;
+}
+.botonDesplegable:focus{
+	outline: 0 !important;
+	border: 1px solid rgb(255, 255, 255) !important;
+}
+.colDesplegable .listaEnlaces {
+	border:1px solid #EDEDED!important;
+}
+.grupo {
+	background-color:#EDEDED!important; 
+}
