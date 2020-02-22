@@ -19,12 +19,12 @@ const App: React.FC = () => {
         <meta name="SPM.DOMAIN" content="CPMS"></meta>
         <meta name="SPM.IDIOMA" content="ES"></meta>
         <meta name="SPM.DIRJS" content="/CPMSCitaPrevia/PROS/js/"></meta>
-        <link type="text/css" rel="stylesheet" href="D:\2.MASTER INGENIERIA INFORMATICA\5.USER EXPERIENCE\helloworld\build\static\css\ParqEstructura.css" media="screen"></link>
-        <link type="text/css" rel="stylesheet" href="D:\2.MASTER INGENIERIA INFORMATICA\5.USER EXPERIENCE\helloworld\build\static\css\ParqTipografia.css" media="screen, print"></link>
-        <link type="text/css" rel="stylesheet" href="D:\2.MASTER INGENIERIA INFORMATICA\5.USER EXPERIENCE\helloworld\build\static\css\ParqImpresion.css" media="print"></link>
-        <link type="text/css" rel="stylesheet" href="D:\2.MASTER INGENIERIA INFORMATICA\5.USER EXPERIENCE\helloworld\build\static\css\ParqColorGen.css" media="screen"></link>
-        <link media="screen" type="text/css" rel="stylesheet" href="D:\2.MASTER INGENIERIA INFORMATICA\5.USER EXPERIENCE\helloworld\build\static\css\ParqColor.css"></link>
-        <link type="text/css" rel="stylesheet" href="D:\2.MASTER INGENIERIA INFORMATICA\5.USER EXPERIENCE\helloworld\build\static\css\CpmsMensajesAlerta.css" media="screen"></link>
+        <link type="text/css" rel="stylesheet" href="./assets/css/ParqEstructura.css" media="screen"></link>
+        <link type="text/css" rel="stylesheet" href="./assets/css/ParqTipografia.css" media="screen, print"></link>
+        <link type="text/css" rel="stylesheet" href="./assets/css/ParqImpresion.css" media="print"></link>
+        <link type="text/css" rel="stylesheet" href="./assets/css/ParqColorGen.css" media="screen"></link>
+        <link media="screen" type="text/css" rel="stylesheet" href="./assets/css/ParqColor.css"></link>
+        <link type="text/css" rel="stylesheet" href="./assets/css/CpmsMensajesAlerta.css" media="screen"></link>
                 <script type="text/javascript">var oArrayValidaciones = new Array();oAux = new oValida('', 'nombreApellidos', '0', 1, 'dtAlpha', '', '', '', 'Nombre y Apellidos', '', 'CPMS', 'SIGUIENTE', '0', '0', '');oArrayValidaciones.push(oAux);oAux = new oValida('', 'numeroDocumento', '0', 1, 'dtAlphaNumeric', '', '', '', 'Número de documento', '', 'CPMS', 'SIGUIENTE', '0', '0', '');oArrayValidaciones.push(oAux);oAux = new oValida('', 'tipo', '0', 1, 'dtAlphaNumeric', '', '', '', 'Tipo', '', 'CPMS', 'SIGUIENTE', '0', '0', '');oArrayValidaciones.push(oAux);oAux = new oValida('', 'telefono', '0', 1, 'dtNumeric', 'validarTelefono()', '', '', 'Teléfono', '', 'CPMS', 'SIGUIENTE', '0', '0', '');oArrayValidaciones.push(oAux);oAux = new oValida('', 'eMail', '0', 0, 'dtAlphaNumeric', 'validarEmail()', '', '', 'e-mail', '', 'CPMS', 'SIGUIENTE', '0', '0', '');oArrayValidaciones.push(oAux);oAux = new oValida('', 'tipoCitaSeleccionado', '0', 1, 'dtRadioButton', '', '', '', '', '', 'CPMS', 'SIGUIENTE', '0', '0', '');oArrayValidaciones.push(oAux);oAux = new oValida('', 'codigoPostal', '0', 1, 'dtNumeric', 'radioCodPostal()', '', '', 'Código Postal', '', 'CPMS', 'SIGUIENTE', '0', '0', '');oArrayValidaciones.push(oAux);oAux = new oValida('', 'provincia', '0', 1, 'dtAlphaNumeric', 'radioProvincia()', '', '', 'Provincia', '', 'CPMS', 'SIGUIENTE', '0', '0', '');oArrayValidaciones.push(oAux);oAux = new oValida('', 'provincia1', '0', 1, 'dtAlphaNumeric', 'radioDiaHoraProvincia()', '', '', 'Provincia', '', 'CPMS', 'SIGUIENTE', '0', '0', '');oArrayValidaciones.push(oAux);bARQIncluirFicheroMensajes= (oArrayValidaciones.length != 0);</script>
         <script type="text/javascript" src="Gesti%C3%B3n%20Esperas%20y%20Cita%20Previa%20-%20Cita%20Previa_files/CpmsJsComun.js"> </script>
         
@@ -45,11 +45,6 @@ const App: React.FC = () => {
             <div id="ARQBotones" className="ARQimgCab">
               <a  id="salir" title="Finalizar aplicación" href="https://w6.seg-social.es/ProsaInternetAnonimo/OnlineAccess;jsessionid=0001iDrCt47cTJIdCPR0S8ufeKH:18jahh768?ARQ.SPM.TICKET=02600a8f968047bb81472afc636ca7b9&amp;SPM.CONTEXT=internet&amp;ARQ.SPM.TMS_NAVEGACION=1582239228019&amp;ARQ.SPM.ACTION=CANCELAPP"><img src="D:\2.MASTER INGENIERIA INFORMATICA\5.USER EXPERIENCE\helloworld\build\ParqCerrar.png" alt=""></img></a>
               <input id="impresion" type="button" title="Imprimir la página actual"></input>
-            </div>
-          </div>
-          <div id="ARQsubCab">
-            <div className="ARQsubCab1">Cita Previa sin Certificado Electrónico</div>
-            <div className="ARQsubCab1">Asistente de Solicitud<div></div>
             </div>
           </div>
           
